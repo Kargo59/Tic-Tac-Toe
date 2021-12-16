@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    height: 800px;
+    background-color: white;
+}
+
+.container > div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    border: solid 3px black;
+}
+
+#restartButton {
+    position: absolute;
+    background-color: rgb(235, 137, 137);
+    font-size: 24px;
+    font-weight: bold;
+    height: 75px;
+    width: 150px;
+    bottom: 60px;
+    right: 250px;
+}
